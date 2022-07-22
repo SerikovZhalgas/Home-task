@@ -15,7 +15,7 @@ function HW1() {
             <hr/>
             homeworks 1
 
-            should work (должно работать)
+            {/*should work (должно работать)*/}
 
             <Message
                 avatar={messageData1.avatar}
@@ -25,8 +25,8 @@ function HW1() {
             />
 
 
-            <hr/>
-            для личного творчества, могу проверить
+            {/*<hr/>*/}
+            {/*для личного творчества, могу проверить*/}
            {/* <AlternativeMessage
                 avatar={messageData2.avatar}
                 name={messageData2.name}
