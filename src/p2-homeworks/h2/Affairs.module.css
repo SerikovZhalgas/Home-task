@@ -1,0 +1,45 @@
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: rgba(67, 209, 156, 1);
+    color: #bbffbb;
+    outline: none
+}
+.button:focus {
+    outline: #bbffbb solid 1px;
+}
+.button:active {
+    background: #99ff99;
+}
+
+.active {
+    background: lightcoral;
+    color: black;
+}
+
+.affair {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+    color: rgba(67, 209, 156, 1);
+}
+
+.high {
+    color: lightcoral;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
+}
+
+
+
+

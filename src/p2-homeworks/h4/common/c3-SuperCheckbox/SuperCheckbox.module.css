@@ -1,0 +1,33 @@
+.label{
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.checkbox {
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 10px;
+    border: 1.5px solid rgba(67, 209, 156, 1);
+}
+
+.checkbox:checked{
+    appearance: none;
+
+    background-image: url("SL-112520-383005.png");
+}
+
+.checkbox:focus{
+    outline: #003300 solid 1px;
+}
+
+.checkbox:hover{
+    outline: #003300 solid 1px;
+}
+.spanClassName {
+
+}

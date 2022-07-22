@@ -1,0 +1,67 @@
+@keyframes blink {
+    0%{
+        left: -130%;
+    }
+    100%{
+        left:130%;
+    }
+}
+
+.default {
+    background: rgba(67, 209, 156, 1);
+    color: #003300;
+    outline: none;
+}
+
+.button:disabled{
+    opacity: 50%;
+    color: black;
+    cursor: auto;
+}
+
+.button:hover::after{
+    animation: blink 1s ease;
+}
+
+.button:focus{
+    outline: #003300 solid 1px;
+}
+
+.red {
+    background: lightcoral;
+}
+
+.button{
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button::after{
+    display: block;
+    content: '';
+    position: absolute;
+
+    left: -130%;
+    top:0;
+    height: 100%;
+    width: 20%;
+
+    transform: skew(45deg);
+
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.button:active{
+    background: #003300;
+}
+
+.button:disabled::after{
+    z-index: -1;
+}
+
+.button:disabled::before{
+    z-index: -1;
+}

@@ -1,0 +1,43 @@
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.input{
+    margin: 10px;
+}
+
+.input:focus{
+    outline: none;
+    border: green solid 2px;
+}
+
+.errorInput {
+    margin: 10px;
+    border: 2px solid lightcoral;
+    outline: none;
+}
+
+.error{
+    color:lightcoral;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.button{
+    margin: 10px;
+    width: 60px;
+    outline: none;
+}
+
+.button:active{
+    background: green;
+}
+
+.count{
+    margin: 10px;
+}
+
+.testSpanError {
+    color: blue;
+}
