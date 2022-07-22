@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/home-tasks-from-Ignat-by-Zhalgas/static/css/main.b8cf61b7.css",
+    "main.js": "/home-tasks-from-Ignat-by-Zhalgas/static/js/main.fd5dcba9.js",
+    "index.html": "/home-tasks-from-Ignat-by-Zhalgas/index.html",
+    "main.b8cf61b7.css.map": "/home-tasks-from-Ignat-by-Zhalgas/static/css/main.b8cf61b7.css.map",
+    "main.fd5dcba9.js.map": "/home-tasks-from-Ignat-by-Zhalgas/static/js/main.fd5dcba9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8cf61b7.css",
+    "static/js/main.fd5dcba9.js"
+  ]
+}
