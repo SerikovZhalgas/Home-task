@@ -3,11 +3,11 @@
     align-items: flex-start;
 }
 
-.input{
+.input {
     margin: 10px;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
     border: green solid 2px;
 }
@@ -18,23 +18,22 @@
     outline: none;
 }
 
-.error{
-    color:lightcoral;
+.error {
+    color: lightcoral;
     height: 20px;
     margin-left: 10px;
 }
 
-.button{
-    margin: 10px;
+.button {
     width: 60px;
     outline: none;
 }
 
-.button:active{
+.button:active {
     background: green;
 }
 
-.count{
+.count {
     margin: 10px;
 }
 

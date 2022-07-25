@@ -16,7 +16,9 @@ function Header() {
             <span className={s.item}>
                 <NavLink className={s.textColor} to={'/junior+'}>junior+</NavLink>
             </span>
-            <span className={s.item}><span className={s.kub}></span></span>
+            <span className={s.item}>
+                <span className={s.kub}></span>
+            </span>
         </div>
     )
 }
