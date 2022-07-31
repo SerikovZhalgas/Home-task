@@ -1,0 +1,11 @@
+.select{
+
+    width: 100px;
+    padding: 2px;
+    color: black;
+    background-color: rgb(67, 209, 156);
+}
+
+.select:focus{
+    border: dodgerblue solid 1px;
+}

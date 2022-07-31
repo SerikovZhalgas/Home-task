@@ -4,5 +4,10 @@
 }
 
 .spanText{
+    display: inline-block;
+
+    height: 23px;
+
+    cursor: pointer;
     color: cornflowerblue;
 }
