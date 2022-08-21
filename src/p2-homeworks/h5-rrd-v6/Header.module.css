@@ -44,8 +44,7 @@
 }
 
 .kub{
-
-border: black solid 1px ;
+    border: black solid 1px ;
     height: 20px;
     position: absolute;
     width: 20px;
@@ -53,7 +52,7 @@ border: black solid 1px ;
             45deg,
             yellow 50%,
             black 50%
-);
+    );
 }
 
 .textColor:focus{

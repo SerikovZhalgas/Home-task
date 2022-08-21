@@ -8,7 +8,6 @@ const messageData1 = {
     time: '22:22',
 }
 
-
 function HW1() {
     return (
         <div>
