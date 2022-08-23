@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import moment from 'moment'
-import style from "./Clock.module.css";
 
 function AlternativeClock() {
     const [timerId, setTimerId] = useState<number>(0)
@@ -26,24 +25,25 @@ function AlternativeClock() {
         setShow(false)
     }
 
-    const stringTime = date.format('LTS') // fix with date
-    const stringDate = date.format('L') // fix with date
+    const stringTime = date?.format('LTS') || <br/> // fix with date
+    const stringDate = date?.format('L') || <br/> // fix with date
 
     return (
         <div>
             <div
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseLeave}
-                className={show ? style.withDate :style.time}
             >
                 {stringTime}
             </div>
 
-            {show && (
+            {show ? (
                 <div>
                     {stringDate}
                 </div>
-            )}
+                )
+                :  <br/>
+            }
 
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
