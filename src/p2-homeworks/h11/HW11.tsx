@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import { TwoThumbInputRange } from "react-two-thumb-input-range"
 
+
 function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState<[number,number]>([0,100])
@@ -44,6 +45,11 @@ function HW11() {
                         showLabels={false}
 
                     />
+                <span>{value2[1]}</span>
+            </div>
+            <div>
+                <span>{value1}</span>
+
                 <span>{value2[1]}</span>
             </div>
 

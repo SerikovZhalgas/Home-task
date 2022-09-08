@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/slider": "^2.0.10",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.10.2",
@@ -20,6 +21,7 @@
     "@types/redux": "^3.6.0",
     "@types/uuid": "^8.3.4",
     "moment": "^2.29.4",
+    "rc-slider": "^10.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
