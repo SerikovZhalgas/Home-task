@@ -21,3 +21,27 @@
 .some-text {
     color: darkslateblue;
 }
+
+.blue {
+    background: #5B4CD8;
+}
+
+.blue-text {
+    color: #FFD540;
+}
+
+.green-blue {
+    background: #057D9F;
+}
+
+.green-blue-text {
+    color: #FF8100;
+}
+
+.pink {
+    background: #CD0074;
+}
+
+.pink-text {
+    color: #9FEE00;
+}

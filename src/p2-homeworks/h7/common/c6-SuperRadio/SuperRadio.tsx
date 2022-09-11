@@ -6,9 +6,9 @@ type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 
 type SuperRadioPropsType = DefaultRadioPropsType & {
     options: ArrType[]
-    onChangeOption: (option: string | undefined) => void
+    onChangeOption: (option: string ) => void
     name:string
-    value:string |undefined
+    value:string
 }
 
 const SuperRadio: React.FC<SuperRadioPropsType> = (

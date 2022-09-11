@@ -6,8 +6,8 @@ type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectE
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
     options: ArrType[]
-    onChangeOption: (option: string | undefined) => void
-    value:string |undefined
+    onChangeOption: (option: string) => void
+    value:string
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (
