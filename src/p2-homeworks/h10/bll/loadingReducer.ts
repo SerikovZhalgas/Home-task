@@ -22,7 +22,7 @@ export const loadingReducer = (state = initState, action: LoadingAC): InitStateT
     }
 }
 
-type LoadingAC = ReturnType<typeof loadingAC>
+export type LoadingAC = ReturnType<typeof loadingAC>
 export const loadingAC = (loading:boolean) => {
     return {
         type: ACTION.SET_LAOADING,
